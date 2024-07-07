@@ -1,6 +1,11 @@
 <script lang="ts">
 
+	import { MetaTags } from 'svelte-meta-tags';
 </script>
+
+<MetaTags title="shichi's Script"
+					description="Script page for personal use. / Copyright © 2024 shichiworks.com All Right Reserved."
+/>
 
 <main class="hero">
 	<div class="page">
