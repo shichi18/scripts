@@ -2,45 +2,32 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/scripts/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/0.WJoNmWU3.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.DQ67OJpI.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CKnejMyd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BMCe87tx.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.cZJ9hfSs.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.BGeXpoRy.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.B0IsF9BH.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.DAKPkpfi.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.BZ5EJTvw.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.Bz7pakNG.js"><title>shichi's Script</title><!-- HEAD_svelte-18pzfb8_START --><meta name="robots" content="index,follow"><meta name="description" content="Script page for personal use. / Copyright © 2024 shichiworks.com All Right Reserved."><!-- HEAD_svelte-18pzfb8_END -->
+		<link rel="modulepreload" href="/scripts/_app/immutable/entry/start.DFiOndhl.js">
+		<link rel="modulepreload" href="/scripts/_app/immutable/chunks/entry.B9GJ9Y_o.js">
+		<link rel="modulepreload" href="/scripts/_app/immutable/chunks/scheduler.cZJ9hfSs.js">
+		<link rel="modulepreload" href="/scripts/_app/immutable/chunks/paths.CIoUE-pi.js">
+		<link rel="modulepreload" href="/scripts/_app/immutable/entry/app.BEHWXycH.js">
+		<link rel="modulepreload" href="/scripts/_app/immutable/chunks/index.DAKPkpfi.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">   <main class="hero svelte-niiazo"><div class="page svelte-niiazo"><div data-svelte-h="svelte-14wtczg"><div><h1>Script Collection</h1> <p>便利なスクリプト集</p></div> <div><p><a href="./csv-to-json" class="svelte-rjit69">CSV to JSON</a></p> <p><a href="./json-to-csv" class="svelte-rjit69">Json to CSV</a></p></div> </div></div> </main> 
-			
+		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_abkqur = {
-						base: new URL(".", location).pathname.slice(0, -1),
+					__sveltekit_1a0ps2k = {
+						base: "/scripts",
 						assets: "/scripts"
 					};
 
 					const element = document.currentScript.parentElement;
 
-					const data = [null,null];
-
 					Promise.all([
-						import("./_app/immutable/entry/start.CKnejMyd.js"),
-						import("./_app/immutable/entry/app.B0IsF9BH.js")
+						import("/scripts/_app/immutable/entry/start.DFiOndhl.js"),
+						import("/scripts/_app/immutable/entry/app.BEHWXycH.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
