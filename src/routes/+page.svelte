@@ -1,11 +1,15 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <div>
 	<div>
 		<h1>Script Collection</h1>
 		<p>便利なスクリプト集</p>
 	</div>
 	<div>
-		<p><a href="/csv-to-json">CSV to JSON </a></p>
-		<p><a href="/json-to-csv">Json to CSV </a></p>
+		<p><a href="{base}/csv-to-json">CSV to JSON </a></p>
+		<p><a href="{base}/json-to-csv">Json to CSV </a></p>
 	</div>
 </div>
 
